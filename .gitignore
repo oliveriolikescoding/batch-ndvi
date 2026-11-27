@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+
+# 本地产出目录（不入库）
+/out/
+*.log
+
+# 演示数据：真实 Sentinel-2 窗口约 2 MB，入库便于"clone 即能跑"；如需精简可删
+# examples/data/ 保留
+
+# examples/out 只收成果图与汇总，不收逐景 NDVI 栅格与日志
+examples/out/*_ndvi.tif
+examples/out/run.log
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

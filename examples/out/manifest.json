@@ -1,0 +1,117 @@
+{
+  "tool": "batch-ndvi",
+  "entries": {
+    "S2B_48RVV_20251129_0_L2A/S2B_48RVV_20251129_0_L2A": {
+      "scene_id": "S2B_48RVV_20251129_0_L2A/S2B_48RVV_20251129_0_L2A",
+      "params_hash": "d1ab09d080e93ab8",
+      "inputs": {
+        "S2B_48RVV_20251129_0_L2A_B04.tif": "9a84893f7e072340",
+        "S2B_48RVV_20251129_0_L2A_B08.tif": "a845759d4ef3305c",
+        "S2B_48RVV_20251129_0_L2A_SCL.tif": "c8d3d1dfc2837ad5"
+      },
+      "started": "2026-11-26T10:32:35",
+      "status": "done",
+      "output": "examples\\out\\S2B_48RVV_20251129_0_L2A_S2B_48RVV_20251129_0_L2A_ndvi.tif",
+      "stats": {
+        "valid_frac": 0.4016,
+        "ndvi_mean": 0.0471,
+        "ndvi_median": 0.0394,
+        "ndvi_min": -0.2843,
+        "ndvi_max": 0.4838,
+        "high_veg_frac": 0.0,
+        "n_valid": 69644,
+        "water_frac": 0.0105,
+        "valid_area_km2": 6.964,
+        "has_scl": true,
+        "fill_max_px": 0.0
+      },
+      "has_scl": true,
+      "resampling": "native",
+      "elapsed_s": 0.1
+    },
+    "S2C_48RVU_20250925_0_L2A/S2C_48RVU_20250925_0_L2A": {
+      "scene_id": "S2C_48RVU_20250925_0_L2A/S2C_48RVU_20250925_0_L2A",
+      "params_hash": "d1ab09d080e93ab8",
+      "inputs": {
+        "S2C_48RVU_20250925_0_L2A_B04.tif": "cac8d088e5da3680",
+        "S2C_48RVU_20250925_0_L2A_B08.tif": "376b2544f92d0837",
+        "S2C_48RVU_20250925_0_L2A_SCL.tif": "1f8be3c2ff03a83c"
+      },
+      "started": "2026-11-26T10:32:35",
+      "status": "done",
+      "output": "examples\\out\\S2C_48RVU_20250925_0_L2A_S2C_48RVU_20250925_0_L2A_ndvi.tif",
+      "stats": {
+        "valid_frac": 0.0775,
+        "ndvi_mean": 0.4329,
+        "ndvi_median": 0.4271,
+        "ndvi_min": -0.8333,
+        "ndvi_max": 0.9787,
+        "high_veg_frac": 0.3118,
+        "n_valid": 13446,
+        "water_frac": 0.0003,
+        "valid_area_km2": 1.345,
+        "has_scl": true,
+        "fill_max_px": 0.0
+      },
+      "has_scl": true,
+      "resampling": "native",
+      "elapsed_s": 0.07
+    },
+    "S2C_48RVU_20251015_0_L2A/S2C_48RVU_20251015_0_L2A": {
+      "scene_id": "S2C_48RVU_20251015_0_L2A/S2C_48RVU_20251015_0_L2A",
+      "params_hash": "d1ab09d080e93ab8",
+      "inputs": {
+        "S2C_48RVU_20251015_0_L2A_B04.tif": "893ba5ee2427439b",
+        "S2C_48RVU_20251015_0_L2A_B08.tif": "d219f0e23704d2e2",
+        "S2C_48RVU_20251015_0_L2A_SCL.tif": "72bca5febfdbff0f"
+      },
+      "started": "2026-11-26T10:32:36",
+      "status": "done",
+      "output": "examples\\out\\S2C_48RVU_20251015_0_L2A_S2C_48RVU_20251015_0_L2A_ndvi.tif",
+      "stats": {
+        "valid_frac": 0.1965,
+        "ndvi_mean": 0.3926,
+        "ndvi_median": 0.3693,
+        "ndvi_min": -0.843,
+        "ndvi_max": 0.9803,
+        "high_veg_frac": 0.2593,
+        "n_valid": 34075,
+        "water_frac": 0.0059,
+        "valid_area_km2": 3.408,
+        "has_scl": true,
+        "fill_max_px": 0.0
+      },
+      "has_scl": true,
+      "resampling": "native",
+      "elapsed_s": 0.08
+    },
+    "S2C_48RVU_20251201_0_L2A/S2C_48RVU_20251201_0_L2A": {
+      "scene_id": "S2C_48RVU_20251201_0_L2A/S2C_48RVU_20251201_0_L2A",
+      "params_hash": "d1ab09d080e93ab8",
+      "inputs": {
+        "S2C_48RVU_20251201_0_L2A_B04.tif": "bf0e71fb5659aa60",
+        "S2C_48RVU_20251201_0_L2A_B08.tif": "c6fd47be0332d66b",
+        "S2C_48RVU_20251201_0_L2A_SCL.tif": "18c701cc035a871f"
+      },
+      "started": "2026-11-26T10:32:36",
+      "status": "done",
+      "output": "examples\\out\\S2C_48RVU_20251201_0_L2A_S2C_48RVU_20251201_0_L2A_ndvi.tif",
+      "stats": {
+        "valid_frac": 1.0,
+        "ndvi_mean": 0.1561,
+        "ndvi_median": 0.1361,
+        "ndvi_min": -0.757,
+        "ndvi_max": 0.8262,
+        "high_veg_frac": 0.0072,
+        "n_valid": 173431,
+        "water_frac": 0.0121,
+        "valid_area_km2": 17.343,
+        "has_scl": true,
+        "fill_max_px": 0.0
+      },
+      "has_scl": true,
+      "resampling": "native",
+      "elapsed_s": 0.1
+    }
+  }
+}
